@@ -2,7 +2,7 @@
   "name": "MTSBankFeatureWithSwiftGen",
   "version": "0.1.0",
   "summary": "A short description of MTSBankFeatureWithSwiftGen.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "'long description long description long description'",
   "homepage": "https://github.com/andreykorolenko/MTSBankFeatureWithSwiftGen",
   "license": {
     "type": "MIT",
@@ -16,7 +16,8 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "MTSBankFeatureWithSwiftGen/Classes/**/*"
+  "source_files": "Example/Pods/Source/*.swift",
+  "resources": "Example/Pods/Source/*.xcassets"
 }

@@ -1,6 +1,8 @@
 use_frameworks!
 
 target 'MTSBankFeatureWithSwiftGen_Example' do
+  
+  pod 'SwiftGen'
   pod 'MTSBankFeatureWithSwiftGen', :path => '../'
 
   target 'MTSBankFeatureWithSwiftGen_Tests' do

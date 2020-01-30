@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'long description long description long description'
                        DESC
 
   s.homepage         = 'https://github.com/andreykorolenko/MTSBankFeatureWithSwiftGen'
@@ -28,13 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/andreykorolenko/MTSBankFeatureWithSwiftGen.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'MTSBankFeatureWithSwiftGen/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MTSBankFeatureWithSwiftGen' => ['MTSBankFeatureWithSwiftGen/Assets/*.png']
-  # }
+  s.source_files = 'Example/Pods/Source/*.swift'
+  s.resources = 'Example/Pods/Source/*.xcassets'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

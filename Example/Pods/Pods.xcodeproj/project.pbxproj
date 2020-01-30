@@ -6,21 +6,40 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FB296D1C543ACA89207838196BB823E7 /* Build configuration list for PBXAggregateTarget "SwiftGen" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftGen;
+			productName = SwiftGen;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		068940DCC2E6C05417CFEA3A5521CC6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		07AF0C4F01C9900D419B5434404710BB /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C017A38D48440D549E5332865C07D4F /* ReplaceMe.swift */; };
+		09285AE4B1D2B40BF249100536258029 /* Pods-MTSBankFeatureWithSwiftGen_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C1F2BC611DDD8BD1750D51A9CC9BB2 /* Pods-MTSBankFeatureWithSwiftGen_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17A613F54CBDCC1CE077BDFE032E64D7 /* Pods-MTSBankFeatureWithSwiftGen_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F2EDA7F78730AE94591A29E885EFAE /* Pods-MTSBankFeatureWithSwiftGen_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25DE4A648DB24140AE2A3FC50095076A /* MTSBankFeatureWithSwiftGen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFD704612E7D28F9E910B5B309E5431 /* MTSBankFeatureWithSwiftGen-dummy.m */; };
+		1E74044723E30D0400BB86A3 /* runswiftgen.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1E74044223E30D0400BB86A3 /* runswiftgen.sh */; };
+		1E74044823E30D0400BB86A3 /* ImageAssets.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 1E74044423E30D0400BB86A3 /* ImageAssets.stencil */; };
+		1E74044923E30D0400BB86A3 /* LocalizableStrings.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 1E74044523E30D0400BB86A3 /* LocalizableStrings.stencil */; };
+		1E74044A23E30D0400BB86A3 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1E74044623E30D0400BB86A3 /* swiftgen.yml */; };
+		1E74044D23E311C600BB86A3 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E74044C23E311C600BB86A3 /* Image.swift */; };
+		2096269908C52F76DEE1721AD57FF360 /* Pods-MTSBankFeatureWithSwiftGen_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9598AD11645A4B09A3FA607594DFE387 /* Pods-MTSBankFeatureWithSwiftGen_Example-dummy.m */; };
+		3263D035F2CACAFDA315C0865E8C2F11 /* SomeFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A46C6DD8CA85C9ED88868772061CFEA /* SomeFeature.swift */; };
 		3FF54A340BE337AAB789969714BE8B39 /* Pods-MTSBankFeatureWithSwiftGen_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C460F2032099FC1D48C8FAAF04931 /* Pods-MTSBankFeatureWithSwiftGen_Tests-dummy.m */; };
-		59232E6385A4A7D7C851ADD819FD34B5 /* MTSBankFeatureWithSwiftGen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8A1CB264195DF01EC263B81E1218A0 /* MTSBankFeatureWithSwiftGen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		677BAD5B86B76C536161521760DCAC1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		859EC42C731FDD05867597075BA9DFD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9586A499AF42B32FDD876423200F05AA /* Pods-MTSBankFeatureWithSwiftGen_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C1F2BC611DDD8BD1750D51A9CC9BB2 /* Pods-MTSBankFeatureWithSwiftGen_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D92BF26157380B56CE4CA6659536F261 /* Pods-MTSBankFeatureWithSwiftGen_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9598AD11645A4B09A3FA607594DFE387 /* Pods-MTSBankFeatureWithSwiftGen_Example-dummy.m */; };
-		F1E07307E9F40DF018F8BDFACE056358 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A804A2871F5DBE8E1A2332E1ED6975C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E4ED98C0F83FD9BE19750230441634 /* Images.xcassets */; };
+		BEBCC7D52485E1F06859F82F1ACDA3B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C4139D34F369F5EC95F2662246568903 /* MTSBankFeatureWithSwiftGen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A0CCBBE8E7C560D85B7D62F80E2F1A /* MTSBankFeatureWithSwiftGen-dummy.m */; };
+		E8C8650641346D1D09048102A8206F7B /* MTSBankFeatureWithSwiftGen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7061421D3C784A9DA60F26C572A8688F /* MTSBankFeatureWithSwiftGen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5B11CBE42982863573C5587FFF6272F7 /* PBXContainerItemProxy */ = {
+		AE5F31850991AE8B742BBA9BCFBF536C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -34,44 +53,66 @@
 			remoteGlobalIDString = A0B635DFC493013FE5600B51D910721D;
 			remoteInfo = "Pods-MTSBankFeatureWithSwiftGen_Example";
 		};
+		F1026E0C443B7C5E7C9651C8CB683820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
+			remoteInfo = SwiftGen;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		033C460F2032099FC1D48C8FAAF04931 /* Pods-MTSBankFeatureWithSwiftGen_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTSBankFeatureWithSwiftGen_Tests-dummy.m"; sourceTree = "<group>"; };
-		1B8168D1EA46559762BD8E616EB6B5EC /* Pods_MTSBankFeatureWithSwiftGen_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTSBankFeatureWithSwiftGen_Tests.framework; path = "Pods-MTSBankFeatureWithSwiftGen_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8168D1EA46559762BD8E616EB6B5EC /* Pods_MTSBankFeatureWithSwiftGen_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTSBankFeatureWithSwiftGen_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E74044223E30D0400BB86A3 /* runswiftgen.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = runswiftgen.sh; sourceTree = "<group>"; };
+		1E74044423E30D0400BB86A3 /* ImageAssets.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ImageAssets.stencil; sourceTree = "<group>"; };
+		1E74044523E30D0400BB86A3 /* LocalizableStrings.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LocalizableStrings.stencil; sourceTree = "<group>"; };
+		1E74044623E30D0400BB86A3 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		1E74044C23E311C600BB86A3 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Example/Pods/Source/Image.swift; sourceTree = "<group>"; };
 		229B4B553E742ECDEAFB667269CDC493 /* Pods-MTSBankFeatureWithSwiftGen_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTSBankFeatureWithSwiftGen_Example-frameworks.sh"; sourceTree = "<group>"; };
-		28A799A82596312F8075E49B11501015 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		265D3F76FF1683B1A843170E0862145A /* MTSBankFeatureWithSwiftGen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MTSBankFeatureWithSwiftGen.modulemap; sourceTree = "<group>"; };
+		2A46C6DD8CA85C9ED88868772061CFEA /* SomeFeature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SomeFeature.swift; path = Example/Pods/Source/SomeFeature.swift; sourceTree = "<group>"; };
+		302E01813528F454A88E837DA523FC07 /* MTSBankFeatureWithSwiftGen.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MTSBankFeatureWithSwiftGen.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3C017A38D48440D549E5332865C07D4F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MTSBankFeatureWithSwiftGen/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		39A0CCBBE8E7C560D85B7D62F80E2F1A /* MTSBankFeatureWithSwiftGen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTSBankFeatureWithSwiftGen-dummy.m"; sourceTree = "<group>"; };
 		3D6C8835FF11DF32E50B1C820282C3D7 /* Pods-MTSBankFeatureWithSwiftGen_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTSBankFeatureWithSwiftGen_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		41B18258DBF2EFD642A128D72A10754B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3EDE4453F97726A901F835D4DB775014 /* MTSBankFeatureWithSwiftGen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTSBankFeatureWithSwiftGen-prefix.pch"; sourceTree = "<group>"; };
+		413C2E5B75C27C3502FA59540F231EE3 /* MTSBankFeatureWithSwiftGen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MTSBankFeatureWithSwiftGen-Info.plist"; sourceTree = "<group>"; };
+		4E6C13F8D5F386847B57ACE0F6DF9CA5 /* SwiftGen.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.xcconfig; sourceTree = "<group>"; };
 		5128E3DC0684D2068257C7477EC5B36C /* Pods-MTSBankFeatureWithSwiftGen_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTSBankFeatureWithSwiftGen_Tests.modulemap"; sourceTree = "<group>"; };
+		53E4ED98C0F83FD9BE19750230441634 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Example/Pods/Source/Images.xcassets; sourceTree = "<group>"; };
 		627FD1927370EE243EFD328DB66CBBFC /* Pods-MTSBankFeatureWithSwiftGen_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTSBankFeatureWithSwiftGen_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69D8F8C6E7C31313104B3E2CF83CDBAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6CAAA603208CB9D54079461EFF22412F /* Pods-MTSBankFeatureWithSwiftGen_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTSBankFeatureWithSwiftGen_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6DFD704612E7D28F9E910B5B309E5431 /* MTSBankFeatureWithSwiftGen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTSBankFeatureWithSwiftGen-dummy.m"; sourceTree = "<group>"; };
 		6F571D9C34C58C84CE967972CA679438 /* Pods-MTSBankFeatureWithSwiftGen_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTSBankFeatureWithSwiftGen_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7C07789498A8CE6A3681CA8EA9522957 /* MTSBankFeatureWithSwiftGen.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTSBankFeatureWithSwiftGen.xcconfig; sourceTree = "<group>"; };
+		7061421D3C784A9DA60F26C572A8688F /* MTSBankFeatureWithSwiftGen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTSBankFeatureWithSwiftGen-umbrella.h"; sourceTree = "<group>"; };
 		7E565DF86724300964CF3A9C99267DB5 /* Pods-MTSBankFeatureWithSwiftGen_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTSBankFeatureWithSwiftGen_Example-Info.plist"; sourceTree = "<group>"; };
 		8097B3DFE548BE7B7D5EBF641DBE5FAF /* Pods-MTSBankFeatureWithSwiftGen_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTSBankFeatureWithSwiftGen_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		809C18F10DB4AA967FD3A8851AE14036 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		88F2EDA7F78730AE94591A29E885EFAE /* Pods-MTSBankFeatureWithSwiftGen_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTSBankFeatureWithSwiftGen_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8E8A1CB264195DF01EC263B81E1218A0 /* MTSBankFeatureWithSwiftGen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTSBankFeatureWithSwiftGen-umbrella.h"; sourceTree = "<group>"; };
-		94C35916993A1D64EB029B233C9E721E /* MTSBankFeatureWithSwiftGen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MTSBankFeatureWithSwiftGen-Info.plist"; sourceTree = "<group>"; };
 		9598AD11645A4B09A3FA607594DFE387 /* Pods-MTSBankFeatureWithSwiftGen_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTSBankFeatureWithSwiftGen_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A17B6F3E4D1CE3F49C6CC592B8326A9B /* Pods-MTSBankFeatureWithSwiftGen_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTSBankFeatureWithSwiftGen_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A6D7E908A16FAF8992C0C0871DB4AFB7 /* Pods_MTSBankFeatureWithSwiftGen_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTSBankFeatureWithSwiftGen_Example.framework; path = "Pods-MTSBankFeatureWithSwiftGen_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D7E908A16FAF8992C0C0871DB4AFB7 /* Pods_MTSBankFeatureWithSwiftGen_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTSBankFeatureWithSwiftGen_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF13DEA15DD94ECA23AD2D51D0B16545 /* Pods-MTSBankFeatureWithSwiftGen_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTSBankFeatureWithSwiftGen_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B08D2F31D4BAF003D178D4EB59AE3680 /* Pods-MTSBankFeatureWithSwiftGen_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTSBankFeatureWithSwiftGen_Tests-Info.plist"; sourceTree = "<group>"; };
-		B16845FEDBF8244EE7290D6EA715C8F5 /* MTSBankFeatureWithSwiftGen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MTSBankFeatureWithSwiftGen.framework; path = MTSBankFeatureWithSwiftGen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16845FEDBF8244EE7290D6EA715C8F5 /* MTSBankFeatureWithSwiftGen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTSBankFeatureWithSwiftGen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C1F2BC611DDD8BD1750D51A9CC9BB2 /* Pods-MTSBankFeatureWithSwiftGen_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTSBankFeatureWithSwiftGen_Example-umbrella.h"; sourceTree = "<group>"; };
-		CB0A842FD36D2A005DAA8D4C38E0A3FA /* MTSBankFeatureWithSwiftGen.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MTSBankFeatureWithSwiftGen.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CBB9E98912C2A34E6B764E61E57B5442 /* MTSBankFeatureWithSwiftGen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTSBankFeatureWithSwiftGen-prefix.pch"; sourceTree = "<group>"; };
+		BF1A25A26E3061C2242A53EF35AD71FD /* MTSBankFeatureWithSwiftGen.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTSBankFeatureWithSwiftGen.xcconfig; sourceTree = "<group>"; };
 		D1DC80936FC783C3FE8AA77DB11ED05C /* Pods-MTSBankFeatureWithSwiftGen_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTSBankFeatureWithSwiftGen_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC1F81ECB79A334ADE7F20F9AF556DD8 /* Pods-MTSBankFeatureWithSwiftGen_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTSBankFeatureWithSwiftGen_Example.modulemap"; sourceTree = "<group>"; };
-		F9DA94B4A86A1D11DDBF0E912FBE237F /* MTSBankFeatureWithSwiftGen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MTSBankFeatureWithSwiftGen.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2EA41348276C037DE71ABCB0F13CF0E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677BAD5B86B76C536161521760DCAC1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		803DF52EA652CD20139726E7BA27863F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,25 +121,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DBB02584790EE3A5E20C00551077A41 /* Frameworks */ = {
+		BF52F82A9A30AFACF4F93CE49C60B581 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				068940DCC2E6C05417CFEA3A5521CC6B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFC4686FCDEE2073AEBB06130AB1D0D6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1E07307E9F40DF018F8BDFACE056358 /* Foundation.framework in Frameworks */,
+				BEBCC7D52485E1F06859F82F1ACDA3B7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07938433A0A0E2C6D6881F8221E56BF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53E4ED98C0F83FD9BE19750230441634 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		07A23DDAB4ACCD19FDDEA905EDF728D6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				809C18F10DB4AA967FD3A8851AE14036 /* LICENSE */,
+				302E01813528F454A88E837DA523FC07 /* MTSBankFeatureWithSwiftGen.podspec */,
+				69D8F8C6E7C31313104B3E2CF83CDBAE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		08DF4A29620F30ECCD85AE71F22FD52C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D03A30BEEC83BEDE4BED3EDB96DEFD7B /* SwiftGen */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1E74044123E30D0400BB86A3 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				1E74044223E30D0400BB86A3 /* runswiftgen.sh */,
+				1E74044323E30D0400BB86A3 /* Templates */,
+				1E74044623E30D0400BB86A3 /* swiftgen.yml */,
+			);
+			name = SwiftGen;
+			path = Example/Pods/Source/SwiftGen;
+			sourceTree = "<group>";
+		};
+		1E74044323E30D0400BB86A3 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				1E74044423E30D0400BB86A3 /* ImageAssets.stencil */,
+				1E74044523E30D0400BB86A3 /* LocalizableStrings.stencil */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
 		233DEFE642C591FCAF2280AC515184FF /* Pods-MTSBankFeatureWithSwiftGen_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,18 +214,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A09DF143EDC67C472B8F1290726CCB8A /* Support Files */ = {
+		8BC4D09EA0B0179C849CEC94328E1821 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F9DA94B4A86A1D11DDBF0E912FBE237F /* MTSBankFeatureWithSwiftGen.modulemap */,
-				7C07789498A8CE6A3681CA8EA9522957 /* MTSBankFeatureWithSwiftGen.xcconfig */,
-				6DFD704612E7D28F9E910B5B309E5431 /* MTSBankFeatureWithSwiftGen-dummy.m */,
-				94C35916993A1D64EB029B233C9E721E /* MTSBankFeatureWithSwiftGen-Info.plist */,
-				CBB9E98912C2A34E6B764E61E57B5442 /* MTSBankFeatureWithSwiftGen-prefix.pch */,
-				8E8A1CB264195DF01EC263B81E1218A0 /* MTSBankFeatureWithSwiftGen-umbrella.h */,
+				4E6C13F8D5F386847B57ACE0F6DF9CA5 /* SwiftGen.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MTSBankFeatureWithSwiftGen";
+			path = "../Target Support Files/SwiftGen";
+			sourceTree = "<group>";
+		};
+		939ECD99492CC128F5E00CE58D87C8A0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1AC4385552581CD15E57DA107FFF738 /* MTSBankFeatureWithSwiftGen */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A976CDC8CC0A661703634B368B6C8A45 /* Pods-MTSBankFeatureWithSwiftGen_Tests */ = {
@@ -165,15 +247,18 @@
 			path = "Target Support Files/Pods-MTSBankFeatureWithSwiftGen_Tests";
 			sourceTree = "<group>";
 		};
-		B975F0654A3E1C0F89759404DBD0F224 /* MTSBankFeatureWithSwiftGen */ = {
+		BACA380B687FE6167F70111A922AB500 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3C017A38D48440D549E5332865C07D4F /* ReplaceMe.swift */,
-				D1A9C58F57224D511648B8FB4827B8A0 /* Pod */,
-				A09DF143EDC67C472B8F1290726CCB8A /* Support Files */,
+				265D3F76FF1683B1A843170E0862145A /* MTSBankFeatureWithSwiftGen.modulemap */,
+				BF1A25A26E3061C2242A53EF35AD71FD /* MTSBankFeatureWithSwiftGen.xcconfig */,
+				39A0CCBBE8E7C560D85B7D62F80E2F1A /* MTSBankFeatureWithSwiftGen-dummy.m */,
+				413C2E5B75C27C3502FA59540F231EE3 /* MTSBankFeatureWithSwiftGen-Info.plist */,
+				3EDE4453F97726A901F835D4DB775014 /* MTSBankFeatureWithSwiftGen-prefix.pch */,
+				7061421D3C784A9DA60F26C572A8688F /* MTSBankFeatureWithSwiftGen-umbrella.h */,
 			);
-			name = MTSBankFeatureWithSwiftGen;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MTSBankFeatureWithSwiftGen";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -188,21 +273,20 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D4738E3420E9DF661BC913407B496C72 /* Development Pods */,
+				939ECD99492CC128F5E00CE58D87C8A0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				08DF4A29620F30ECCD85AE71F22FD52C /* Pods */,
 				78AA71BFA521812EA5ED4B69ACB8FE47 /* Products */,
 				52FAF60460296DFC840B72D6D9ADC7F9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D1A9C58F57224D511648B8FB4827B8A0 /* Pod */ = {
+		D03A30BEEC83BEDE4BED3EDB96DEFD7B /* SwiftGen */ = {
 			isa = PBXGroup;
 			children = (
-				28A799A82596312F8075E49B11501015 /* LICENSE */,
-				CB0A842FD36D2A005DAA8D4C38E0A3FA /* MTSBankFeatureWithSwiftGen.podspec */,
-				41B18258DBF2EFD642A128D72A10754B /* README.md */,
+				8BC4D09EA0B0179C849CEC94328E1821 /* Support Files */,
 			);
-			name = Pod;
+			path = SwiftGen;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -213,22 +297,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D4738E3420E9DF661BC913407B496C72 /* Development Pods */ = {
+		E1AC4385552581CD15E57DA107FFF738 /* MTSBankFeatureWithSwiftGen */ = {
 			isa = PBXGroup;
 			children = (
-				B975F0654A3E1C0F89759404DBD0F224 /* MTSBankFeatureWithSwiftGen */,
+				2A46C6DD8CA85C9ED88868772061CFEA /* SomeFeature.swift */,
+				1E74044C23E311C600BB86A3 /* Image.swift */,
+				1E74044123E30D0400BB86A3 /* SwiftGen */,
+				07A23DDAB4ACCD19FDDEA905EDF728D6 /* Pod */,
+				07938433A0A0E2C6D6881F8221E56BF4 /* Resources */,
+				BACA380B687FE6167F70111A922AB500 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = MTSBankFeatureWithSwiftGen;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		47C45113D4BCB84EB2B632B32B585933 /* Headers */ = {
+		35CC80393E22B5EC71353C4BDF6D6D45 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9586A499AF42B32FDD876423200F05AA /* Pods-MTSBankFeatureWithSwiftGen_Example-umbrella.h in Headers */,
+				09285AE4B1D2B40BF249100536258029 /* Pods-MTSBankFeatureWithSwiftGen_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,11 +330,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EF3941D2ECFBB04C492D286264A3D6A /* Headers */ = {
+		9EEA6F97DA2DDDA339085673AE3C3610 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59232E6385A4A7D7C851ADD819FD34B5 /* MTSBankFeatureWithSwiftGen-umbrella.h in Headers */,
+				E8C8650641346D1D09048102A8206F7B /* MTSBankFeatureWithSwiftGen-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,17 +362,18 @@
 		};
 		A0B635DFC493013FE5600B51D910721D /* Pods-MTSBankFeatureWithSwiftGen_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F74F5AC7487B603A344FA0390622769 /* Build configuration list for PBXNativeTarget "Pods-MTSBankFeatureWithSwiftGen_Example" */;
+			buildConfigurationList = 40C1F60017A05064108368EFA8B4E3A8 /* Build configuration list for PBXNativeTarget "Pods-MTSBankFeatureWithSwiftGen_Example" */;
 			buildPhases = (
-				47C45113D4BCB84EB2B632B32B585933 /* Headers */,
-				4564E2F0595DA2AC8628702E3BF8C1E1 /* Sources */,
-				CFC4686FCDEE2073AEBB06130AB1D0D6 /* Frameworks */,
-				E0F59792241A3C7D06B8C1202424F341 /* Resources */,
+				35CC80393E22B5EC71353C4BDF6D6D45 /* Headers */,
+				967F02039ED588765260C9FBA680AE27 /* Sources */,
+				BF52F82A9A30AFACF4F93CE49C60B581 /* Frameworks */,
+				AE7BC7AE8B3335ADD41E2D9460D30D6B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CFDB41882727BF56D046A0C41668015C /* PBXTargetDependency */,
+				2133CC0792DFAE957281DE600BA6D22F /* PBXTargetDependency */,
+				AC78BFBEBA56BB8E2D1A24A2148A75D2 /* PBXTargetDependency */,
 			);
 			name = "Pods-MTSBankFeatureWithSwiftGen_Example";
 			productName = "Pods-MTSBankFeatureWithSwiftGen_Example";
@@ -291,12 +382,13 @@
 		};
 		A492B23B62337B3189F4FBB2533458A6 /* MTSBankFeatureWithSwiftGen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36F820C74DDBD8F789A788EDBBECE82A /* Build configuration list for PBXNativeTarget "MTSBankFeatureWithSwiftGen" */;
+			buildConfigurationList = 6236487F19903FBDC4B51384E7B5D77D /* Build configuration list for PBXNativeTarget "MTSBankFeatureWithSwiftGen" */;
 			buildPhases = (
-				8EF3941D2ECFBB04C492D286264A3D6A /* Headers */,
-				DCCE7927B63C8187795CFE6ED823FF03 /* Sources */,
-				9DBB02584790EE3A5E20C00551077A41 /* Frameworks */,
-				243D734C29E542891FD6D1FA19F98DFE /* Resources */,
+				9EEA6F97DA2DDDA339085673AE3C3610 /* Headers */,
+				1E74044B23E3110000BB86A3 /* SwiftGen */,
+				1A26777CF608475E91E87837B45143B4 /* Sources */,
+				2EA41348276C037DE71ABCB0F13CF0E7 /* Frameworks */,
+				525A4D4AC8B928EBD35F84F2ACF687A4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -331,15 +423,21 @@
 				A492B23B62337B3189F4FBB2533458A6 /* MTSBankFeatureWithSwiftGen */,
 				A0B635DFC493013FE5600B51D910721D /* Pods-MTSBankFeatureWithSwiftGen_Example */,
 				392261081C3AC6B9B66F8F49E909B266 /* Pods-MTSBankFeatureWithSwiftGen_Tests */,
+				1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		243D734C29E542891FD6D1FA19F98DFE /* Resources */ = {
+		525A4D4AC8B928EBD35F84F2ACF687A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A804A2871F5DBE8E1A2332E1ED6975C1 /* Images.xcassets in Resources */,
+				1E74044A23E30D0400BB86A3 /* swiftgen.yml in Resources */,
+				1E74044823E30D0400BB86A3 /* ImageAssets.stencil in Resources */,
+				1E74044923E30D0400BB86A3 /* LocalizableStrings.stencil in Resources */,
+				1E74044723E30D0400BB86A3 /* runswiftgen.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +448,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0F59792241A3C7D06B8C1202424F341 /* Resources */ = {
+		AE7BC7AE8B3335ADD41E2D9460D30D6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -358,6 +456,32 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E74044B23E3110000BB86A3 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Source/SwiftGen/runswiftgen.sh",
+				"$(SRCROOT)/Source/SwiftGen/swiftgen.yml",
+				"$(SRCROOT)/Source/SwiftGen/Templates/ImageAssets.stencil",
+				"$(SRCROOT)/Source/Images.xcassets",
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/Source/Image.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT\"/Source/SwiftGen/runswiftgen.sh \"$PODS_ROOT\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		11048474E23E6C303C987BBEB64DF65A /* Sources */ = {
@@ -368,207 +492,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4564E2F0595DA2AC8628702E3BF8C1E1 /* Sources */ = {
+		1A26777CF608475E91E87837B45143B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D92BF26157380B56CE4CA6659536F261 /* Pods-MTSBankFeatureWithSwiftGen_Example-dummy.m in Sources */,
+				C4139D34F369F5EC95F2662246568903 /* MTSBankFeatureWithSwiftGen-dummy.m in Sources */,
+				1E74044D23E311C600BB86A3 /* Image.swift in Sources */,
+				3263D035F2CACAFDA315C0865E8C2F11 /* SomeFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCCE7927B63C8187795CFE6ED823FF03 /* Sources */ = {
+		967F02039ED588765260C9FBA680AE27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25DE4A648DB24140AE2A3FC50095076A /* MTSBankFeatureWithSwiftGen-dummy.m in Sources */,
-				07AF0C4F01C9900D419B5434404710BB /* ReplaceMe.swift in Sources */,
+				2096269908C52F76DEE1721AD57FF360 /* Pods-MTSBankFeatureWithSwiftGen_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2133CC0792DFAE957281DE600BA6D22F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTSBankFeatureWithSwiftGen;
+			target = A492B23B62337B3189F4FBB2533458A6 /* MTSBankFeatureWithSwiftGen */;
+			targetProxy = AE5F31850991AE8B742BBA9BCFBF536C /* PBXContainerItemProxy */;
+		};
 		82D5BF4A936B2F2B754870DB0DADA4BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MTSBankFeatureWithSwiftGen_Example";
 			target = A0B635DFC493013FE5600B51D910721D /* Pods-MTSBankFeatureWithSwiftGen_Example */;
 			targetProxy = E8627926E729649ABB7F276BB79596A7 /* PBXContainerItemProxy */;
 		};
-		CFDB41882727BF56D046A0C41668015C /* PBXTargetDependency */ = {
+		AC78BFBEBA56BB8E2D1A24A2148A75D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MTSBankFeatureWithSwiftGen;
-			target = A492B23B62337B3189F4FBB2533458A6 /* MTSBankFeatureWithSwiftGen */;
-			targetProxy = 5B11CBE42982863573C5587FFF6272F7 /* PBXContainerItemProxy */;
+			name = SwiftGen;
+			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
+			targetProxy = F1026E0C443B7C5E7C9651C8CB683820 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		201AA9CEE22806E3535E6F97B7E294B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F571D9C34C58C84CE967972CA679438 /* Pods-MTSBankFeatureWithSwiftGen_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MTSBankFeatureWithSwiftGen_Example/Pods-MTSBankFeatureWithSwiftGen_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MTSBankFeatureWithSwiftGen_Example/Pods-MTSBankFeatureWithSwiftGen_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		47819E835832F7D04CB5DC8A07AEA158 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1DC80936FC783C3FE8AA77DB11ED05C /* Pods-MTSBankFeatureWithSwiftGen_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MTSBankFeatureWithSwiftGen_Example/Pods-MTSBankFeatureWithSwiftGen_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MTSBankFeatureWithSwiftGen_Example/Pods-MTSBankFeatureWithSwiftGen_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A6BF9B8E80468F87A4CD0FFD53652906 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF13DEA15DD94ECA23AD2D51D0B16545 /* Pods-MTSBankFeatureWithSwiftGen_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MTSBankFeatureWithSwiftGen_Tests/Pods-MTSBankFeatureWithSwiftGen_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MTSBankFeatureWithSwiftGen_Tests/Pods-MTSBankFeatureWithSwiftGen_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B08F53C03217DAB84973050D174F8C2E /* Debug */ = {
+		10C86F3E1A81E8CEF7F014E7D269119A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6CAAA603208CB9D54079461EFF22412F /* Pods-MTSBankFeatureWithSwiftGen_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -580,7 +551,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MTSBankFeatureWithSwiftGen_Tests/Pods-MTSBankFeatureWithSwiftGen_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MTSBankFeatureWithSwiftGen_Tests/Pods-MTSBankFeatureWithSwiftGen_Tests.modulemap";
@@ -597,7 +568,7 @@
 			};
 			name = Debug;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -648,7 +619,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -661,10 +632,11 @@
 			};
 			name = Debug;
 		};
-		CE86502A8A44B4FF1A2CCAE93D8564FD /* Debug */ = {
+		2916C73E73FC0B3BC4D194FA18052785 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C07789498A8CE6A3681CA8EA9522957 /* MTSBankFeatureWithSwiftGen.xcconfig */;
+			baseConfigurationReference = BF1A25A26E3061C2242A53EF35AD71FD /* MTSBankFeatureWithSwiftGen.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -677,38 +649,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MTSBankFeatureWithSwiftGen/MTSBankFeatureWithSwiftGen-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MTSBankFeatureWithSwiftGen/MTSBankFeatureWithSwiftGen-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MTSBankFeatureWithSwiftGen/MTSBankFeatureWithSwiftGen.modulemap";
-				PRODUCT_MODULE_NAME = MTSBankFeatureWithSwiftGen;
-				PRODUCT_NAME = MTSBankFeatureWithSwiftGen;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F329F20974A4D0CE81E99AD0FF95D486 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C07789498A8CE6A3681CA8EA9522957 /* MTSBankFeatureWithSwiftGen.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MTSBankFeatureWithSwiftGen/MTSBankFeatureWithSwiftGen-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MTSBankFeatureWithSwiftGen/MTSBankFeatureWithSwiftGen-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MTSBankFeatureWithSwiftGen/MTSBankFeatureWithSwiftGen.modulemap";
 				PRODUCT_MODULE_NAME = MTSBankFeatureWithSwiftGen;
@@ -724,23 +665,236 @@
 			};
 			name = Release;
 		};
+		3AFE9CEE084F0DDA177DB1B7B202812A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E6C13F8D5F386847B57ACE0F6DF9CA5 /* SwiftGen.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D9CD987F0CE10F1F9B4BA349FE4B5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E6C13F8D5F386847B57ACE0F6DF9CA5 /* SwiftGen.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64E9CF26E78535989EE69F6F2BF45F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1DC80936FC783C3FE8AA77DB11ED05C /* Pods-MTSBankFeatureWithSwiftGen_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTSBankFeatureWithSwiftGen_Example/Pods-MTSBankFeatureWithSwiftGen_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTSBankFeatureWithSwiftGen_Example/Pods-MTSBankFeatureWithSwiftGen_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65EC4D20FAB7BA518F9AC12E41E8D253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F571D9C34C58C84CE967972CA679438 /* Pods-MTSBankFeatureWithSwiftGen_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTSBankFeatureWithSwiftGen_Example/Pods-MTSBankFeatureWithSwiftGen_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTSBankFeatureWithSwiftGen_Example/Pods-MTSBankFeatureWithSwiftGen_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8400471A697D3E066BE8A0CA852186EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF13DEA15DD94ECA23AD2D51D0B16545 /* Pods-MTSBankFeatureWithSwiftGen_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTSBankFeatureWithSwiftGen_Tests/Pods-MTSBankFeatureWithSwiftGen_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTSBankFeatureWithSwiftGen_Tests/Pods-MTSBankFeatureWithSwiftGen_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BD2E4707B8822D4640A41DE7BD982DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF1A25A26E3061C2242A53EF35AD71FD /* MTSBankFeatureWithSwiftGen.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MTSBankFeatureWithSwiftGen/MTSBankFeatureWithSwiftGen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTSBankFeatureWithSwiftGen/MTSBankFeatureWithSwiftGen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MTSBankFeatureWithSwiftGen/MTSBankFeatureWithSwiftGen.modulemap";
+				PRODUCT_MODULE_NAME = MTSBankFeatureWithSwiftGen;
+				PRODUCT_NAME = MTSBankFeatureWithSwiftGen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F74F5AC7487B603A344FA0390622769 /* Build configuration list for PBXNativeTarget "Pods-MTSBankFeatureWithSwiftGen_Example" */ = {
+		40C1F60017A05064108368EFA8B4E3A8 /* Build configuration list for PBXNativeTarget "Pods-MTSBankFeatureWithSwiftGen_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47819E835832F7D04CB5DC8A07AEA158 /* Debug */,
-				201AA9CEE22806E3535E6F97B7E294B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		36F820C74DDBD8F789A788EDBBECE82A /* Build configuration list for PBXNativeTarget "MTSBankFeatureWithSwiftGen" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE86502A8A44B4FF1A2CCAE93D8564FD /* Debug */,
-				F329F20974A4D0CE81E99AD0FF95D486 /* Release */,
+				64E9CF26E78535989EE69F6F2BF45F4F /* Debug */,
+				65EC4D20FAB7BA518F9AC12E41E8D253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -748,8 +902,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6236487F19903FBDC4B51384E7B5D77D /* Build configuration list for PBXNativeTarget "MTSBankFeatureWithSwiftGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD2E4707B8822D4640A41DE7BD982DF /* Debug */,
+				2916C73E73FC0B3BC4D194FA18052785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -757,8 +920,17 @@
 		7D05C189AAB1FCB44BB81B4369D93383 /* Build configuration list for PBXNativeTarget "Pods-MTSBankFeatureWithSwiftGen_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B08F53C03217DAB84973050D174F8C2E /* Debug */,
-				A6BF9B8E80468F87A4CD0FFD53652906 /* Release */,
+				10C86F3E1A81E8CEF7F014E7D269119A /* Debug */,
+				8400471A697D3E066BE8A0CA852186EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB296D1C543ACA89207838196BB823E7 /* Build configuration list for PBXAggregateTarget "SwiftGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9CD987F0CE10F1F9B4BA349FE4B5EC /* Debug */,
+				3AFE9CEE084F0DDA177DB1B7B202812A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,16 +1,23 @@
 PODS:
   - MTSBankFeatureWithSwiftGen (0.1.0)
+  - SwiftGen (6.1.0)
 
 DEPENDENCIES:
   - MTSBankFeatureWithSwiftGen (from `../`)
+  - SwiftGen
+
+SPEC REPOS:
+  trunk:
+    - SwiftGen
 
 EXTERNAL SOURCES:
   MTSBankFeatureWithSwiftGen:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MTSBankFeatureWithSwiftGen: 45e0568e08237c433baaa2a7bc2b1788807d4bbc
+  MTSBankFeatureWithSwiftGen: fa1589c3872b02e375e9d6656821c5d036e42df8
+  SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
 
-PODFILE CHECKSUM: 58ff8b8c6f8347b2e87330f3524b5bc07044c834
+PODFILE CHECKSUM: edea91c57968edd6cc4c18ac0fe79f4c8e3c5a8d
 
 COCOAPODS: 1.8.4

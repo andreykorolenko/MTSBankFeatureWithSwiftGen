@@ -1,0 +1,8 @@
+xcassets:
+- paths: ../Images.xcassets
+  templatePath: Templates/ImageAssets.stencil
+  output: ../Image.swift
+  params:
+    enumName: Image
+    publicAccess: 1
+    noAllValues: 1

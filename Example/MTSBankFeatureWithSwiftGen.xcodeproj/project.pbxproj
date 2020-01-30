@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0345CE820E9B00106C64F2C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		1A218F3D594CB1C45237AA04 /* MTSBankFeatureWithSwiftGen.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MTSBankFeatureWithSwiftGen.podspec; path = ../MTSBankFeatureWithSwiftGen.podspec; sourceTree = "<group>"; };
-		29823D5F76FF1F8EE7563ED4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0345CE820E9B00106C64F2C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1A218F3D594CB1C45237AA04 /* MTSBankFeatureWithSwiftGen.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MTSBankFeatureWithSwiftGen.podspec; path = ../MTSBankFeatureWithSwiftGen.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		29823D5F76FF1F8EE7563ED4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3575AE386B6FBEF319E7FB73 /* Pods-MTSBankFeatureWithSwiftGen_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTSBankFeatureWithSwiftGen_Tests.release.xcconfig"; path = "Target Support Files/Pods-MTSBankFeatureWithSwiftGen_Tests/Pods-MTSBankFeatureWithSwiftGen_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5C1BD8BF0E47BE926FB9F3E5 /* Pods-MTSBankFeatureWithSwiftGen_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTSBankFeatureWithSwiftGen_Example.debug.xcconfig"; path = "Target Support Files/Pods-MTSBankFeatureWithSwiftGen_Example/Pods-MTSBankFeatureWithSwiftGen_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MTSBankFeatureWithSwiftGen_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTSBankFeatureWithSwiftGen_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,6 @@
 				A75CE94E03BF4E9738F0D849 /* Pods-MTSBankFeatureWithSwiftGen_Tests.debug.xcconfig */,
 				3575AE386B6FBEF319E7FB73 /* Pods-MTSBankFeatureWithSwiftGen_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9MZB33XH24;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9MZB33XH24;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,7 +480,9 @@
 			baseConfigurationReference = 5C1BD8BF0E47BE926FB9F3E5 /* Pods-MTSBankFeatureWithSwiftGen_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9MZB33XH24;
 				INFOPLIST_FILE = MTSBankFeatureWithSwiftGen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +497,9 @@
 			baseConfigurationReference = C6791FA933806724001BFE17 /* Pods-MTSBankFeatureWithSwiftGen_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9MZB33XH24;
 				INFOPLIST_FILE = MTSBankFeatureWithSwiftGen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A75CE94E03BF4E9738F0D849 /* Pods-MTSBankFeatureWithSwiftGen_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9MZB33XH24;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3575AE386B6FBEF319E7FB73 /* Pods-MTSBankFeatureWithSwiftGen_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9MZB33XH24;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
