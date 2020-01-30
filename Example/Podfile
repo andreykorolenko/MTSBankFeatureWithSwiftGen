@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MTSBankFeatureWithSwiftGen_Example' do
+  pod 'MTSBankFeatureWithSwiftGen', :path => '../'
+
+  target 'MTSBankFeatureWithSwiftGen_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
