@@ -1,0 +1,6 @@
+framework module MTSBankFeatureWithSwiftGen {
+  umbrella header "MTSBankFeatureWithSwiftGen-umbrella.h"
+
+  export *
+  module * { export * }
+}

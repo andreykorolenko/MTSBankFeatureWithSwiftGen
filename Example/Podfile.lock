@@ -1,0 +1,16 @@
+PODS:
+  - MTSBankFeatureWithSwiftGen (0.1.0)
+
+DEPENDENCIES:
+  - MTSBankFeatureWithSwiftGen (from `../`)
+
+EXTERNAL SOURCES:
+  MTSBankFeatureWithSwiftGen:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MTSBankFeatureWithSwiftGen: 45e0568e08237c433baaa2a7bc2b1788807d4bbc
+
+PODFILE CHECKSUM: 58ff8b8c6f8347b2e87330f3524b5bc07044c834
+
+COCOAPODS: 1.8.4
